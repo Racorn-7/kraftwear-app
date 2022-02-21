@@ -1,0 +1,185 @@
+.PaymentPage .PaymentBotRight, .PaymentPage .PaymentBotRight * {
+  /*  border: 1px solid aqua; */
+}
+
+.PaymentPage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-self: center;
+  padding: 2em;
+  overflow-y: scroll;
+}
+
+.PaymentPage>* {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 2em;
+}
+
+.PaymentPage .BankCard {
+  width: 100%;
+  max-width: 400px;
+  max-height: 300px;
+  height: unset;
+  border-radius: 2em;
+  opacity: 1;
+  border: none;
+  background-color: white;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  padding: 2em;
+}
+
+.PaymentPage .BankCard .BankCardIcon {
+  height: 2em;
+  width: auto;
+}
+
+.PaymentPage .BankCard>* {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1em;
+}
+
+.PaymentPage .BankCard .BCnameLine {
+  justify-content: space-between;
+}
+
+.PaymentPage .BankCard .BCnameLine>p {
+  font-size: 1.4em;
+}
+
+.PaymentBottom>* {
+  max-width: 400px;
+  flex-grow: 1;
+  display: flex;
+  padding: 2em;
+}
+
+.PaymentBotLeft {
+  flex-flow: row wrap;
+}
+
+.PaymentBotLeft .PaymentInput {
+  padding: 1em;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.PaymentBotLeft .PaymentInput div {
+  border-radius: 2em;
+  padding: .5em;
+}
+
+.PaymentBotLeft .PaymentInput .card {
+  opacity: 1;
+  flex-grow: 0;
+  background-color: white;
+  height: unset;
+  width: 100%;
+  margin: 1em 0 0 0;
+  padding: 0.5em 1em;
+}
+
+.PaymentBotRight {
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.PaymentBotRight>* {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  align-items: space-between;
+  flex-grow: 1;
+}
+
+.PaymentBotRight .PaymentSummary>div {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.PaymentBotRight .PaymentSummary>div p {
+  text-transform: uppercase;
+  padding: 0.5em;
+}
+
+.PaymentBotRight .PaymentButtons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 0;
+  margin-top: 2em;
+}
+
+.PaymentBotRight .PaymentButtons button {
+  padding: 1em 2em;
+  border-radius: 2em;
+}
+
+.PaymentBotRight .PaymentButtons *:not(:last-child) {
+  margin-right: 2em;
+}
+
+.PaymentPage .PaymentBackBtn {
+  background-color: black;
+  color: white;
+}
+
+.PaymentPage .PayNowBtn {
+  background-color: lightslategray;
+  color: black;
+}
+
+.secCodeInput {
+  font-size: 1em;
+  text-align: center;
+  width: 60px !important;
+}
+
+.PaymentPageMessage {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.PaymentPageMessage >*{
+  margin-bottom: 2em;
+}
+.PaymentPageMessage svg{
+  height: 20vh;
+  width: auto;
+}
+.PaymentPageMessage button{
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  padding: 1em 2em;
+}
+.PaymentPageMessage button:hover{
+  background-color: darkcyan;
+}
+
+.PaymentPageMessage>div{
+  display: flex;
+  flex-flow: row wrap;
+}
+.PaymentPageMessage>div button{
+  margin: 0 1em;
+}

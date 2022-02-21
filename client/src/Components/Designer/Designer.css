@@ -1,0 +1,125 @@
+.designerPage * {
+  /*border: 1px solid red;*/
+}
+
+.designerPage {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.designerLeft {
+  position: relative;
+}
+
+.designerLeft, .designerRight {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.vis {
+  border: 1px solid green;
+  height: 100%;
+}
+
+.designerLeftFooter {
+  position: absolute;
+  bottom: 0;
+  padding: 2vh;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.designerLeft .PsyButton {
+  height: unset;
+  width: unset;
+  padding: 1em 2em;
+  font-size: .8em;
+  border: 1px solid;
+}
+
+.designerLeft .PsyButton:not(:last-of-type) {
+  margin-right: 2vh;
+}
+
+.controlHelpBtn {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  border: 1px solid black;
+}
+
+.garmentSelector {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.garmentSelector h2 {
+  padding: 0 2vh;
+}
+
+.garmentList {
+  flex-grow: 2;
+  padding: 0 4vh;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+.garmentList::-webkit-scrollbar {
+  width: 0 !important
+}
+
+.garmentList .DesignThumbnail {
+  width: 10vh;
+  height: 10vh;
+  flex-basis: 33%;
+  /*ALTERNATIVE styling
+  width: 100%;
+  height: 20%;
+  min-height: unset;
+  min-width: unset;
+  max-width: 58vh;
+  margin: 0;
+  */
+}
+
+.garmentList .DesignThumbnail a {
+  background-size: contain;
+}
+
+.garmentList .DesignThumbnail h2 {
+  font-size: 0.6em;
+}
+
+.modelLoaderSvg {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+/*
+.modelLoaderSvg svg {
+  stroke: black;
+}
+*/

@@ -1,0 +1,78 @@
+.MyOrders {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+}
+.OrdersContainer {
+  width: 100%;
+  flex-grow: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20vh;
+  overflow-y: scroll;
+  z-index: 9;
+}
+
+.MyOrders .ListItemMid:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.ProductLines {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.ProductLines .ListItemLeft{
+  width: 2.4em;
+}
+.ProductLines .ListItemRight p{
+  padding-left: 0;
+}
+.ProductLines li {
+  text-transform: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProductLines .plType{
+  width: 6em;
+}
+.ProductLines .plMaterial{
+  width: 16em;
+}
+.ProductLines .plUnitPrice{
+  width: 10em;
+}
+.ProductLines .plQuantity{
+  width: 4em;
+}
+
+.MyOrders .ListItemRight>*{
+  padding: 1em .5em !important;
+}
+
+.MyOrders .itemCount{
+  width: 7em;
+}
+.MyOrders .costDetails{
+  width: 25em;
+  text-align: left;
+  justify-content: flex-start;
+}
+.MyOrders .dateDetail{
+  width: 9em;
+}
+.MyOrders .orderStatus{
+  width: 7em;
+}
+.MyOrders .ListItemRight button{
+  padding: 0 !important;
+}

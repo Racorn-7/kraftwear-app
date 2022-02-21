@@ -1,0 +1,45 @@
+.StaffHome{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.StaffHome>*{
+  margin: 1em;
+}
+
+.StaffHome .PsyButton{
+  margin: 1em;
+}
+
+.StaffHome>svg{
+  height: 15em;
+}
+
+.StaffHome p{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.StaffHome p span{
+  background-color: red;
+  color: white;
+  margin: .5em;
+  border-radius: 2em;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+}
+.InProgressJobs span{
+  background-color: slategray !important;
+}
+
+.StaffHome .JobsCounter{
+  display: flex;
+  flex-flow: column wrap;
+}

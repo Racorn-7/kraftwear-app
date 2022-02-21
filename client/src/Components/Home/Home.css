@@ -1,0 +1,33 @@
+/****** LEFT ********/
+.HomeLeft{
+  flex-grow: 2;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 1em 0 1em 3em;
+}
+/****** RIGHT ********/
+.HomeRight{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow-y: scroll;
+  padding: 1em 1em 1em 0;
+}
+.HomeRigtTitle{
+  text-align: right;
+  width: 50%;
+  padding: 1em;
+}
+.Home .FeatureColumn{
+  overflow: unset;
+  overflow-x: visible;
+  height: auto;
+  width: unset;
+  padding: unset;
+}
+.Home .DesignThumbnail{
+  margin: 1em;
+}
+

@@ -1,0 +1,402 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                4
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "hoodie.001",
+            "translation" : [
+                -0.07268025726079941,
+                -639.71337890625,
+                -18.61424446105957
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Line002",
+            "translation" : [
+                -0.07268025726079941,
+                -639.71337890625,
+                -18.61424446105957
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Object002",
+            "translation" : [
+                -0.07268025726079941,
+                -639.71337890625,
+                -18.61424446105957
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "zip",
+            "translation" : [
+                -0.07268025726079941,
+                -639.71337890625,
+                -18.61424446105957
+            ]
+        },
+        {
+            "children" : [
+                0,
+                1,
+                2,
+                3
+            ],
+            "name" : "hoodie",
+            "scale" : [
+                0.002105481456965208,
+                0.002105481456965208,
+                0.002105481456965208
+            ],
+            "translation" : [
+                0.00015302693645935506,
+                1.3469046354293823,
+                0.03919189050793648
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material #98",
+            "pbrMetallicRoughness" : {}
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material #22",
+            "pbrMetallicRoughness" : {}
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material #21",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Untitled.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Untitled.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "Untitled.005",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "Untitled.004",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13,
+                        "TEXCOORD_0" : 14
+                    },
+                    "indices" : 15,
+                    "material" : 3
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "KraftWear_logo",
+            "uri" : "KraftWear_logo.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 7169,
+            "max" : [
+                150.71359252929688,
+                272.2130126953125,
+                82.98258209228516
+            ],
+            "min" : [
+                -150.56820678710938,
+                -206.3837432861328,
+                -47.714752197265625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 7169,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 7169,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 39672,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1032,
+            "max" : [
+                46.13294219970703,
+                146.9140167236328,
+                84.94319915771484
+            ],
+            "min" : [
+                -46.193389892578125,
+                24.26541519165039,
+                70.23567962646484
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1032,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1032,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 3624,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 5702,
+            "max" : [
+                148.3675079345703,
+                269.85882568359375,
+                82.0916748046875
+            ],
+            "min" : [
+                -148.2221221923828,
+                -206.3837432861328,
+                -45.26355743408203
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 5702,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 5702,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 31728,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 1570,
+            "max" : [
+                41.041812896728516,
+                145.40988159179688,
+                80.00584411621094
+            ],
+            "min" : [
+                -40.89644241333008,
+                -173.60328674316406,
+                67.54065704345703
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 1570,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5126,
+            "count" : 1570,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5123,
+            "count" : 4962,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 86028,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 86028,
+            "byteOffset" : 86028
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57352,
+            "byteOffset" : 172056
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 79344,
+            "byteOffset" : 229408
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12384,
+            "byteOffset" : 308752
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12384,
+            "byteOffset" : 321136
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8256,
+            "byteOffset" : 333520
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7248,
+            "byteOffset" : 341776
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 68424,
+            "byteOffset" : 349024
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 68424,
+            "byteOffset" : 417448
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45616,
+            "byteOffset" : 485872
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 63456,
+            "byteOffset" : 531488
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18840,
+            "byteOffset" : 594944
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 18840,
+            "byteOffset" : 613784
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12560,
+            "byteOffset" : 632624
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9924,
+            "byteOffset" : 645184
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 655108,
+            "uri" : "KraftWear_hoodie_model_4.bin"
+        }
+    ]
+}

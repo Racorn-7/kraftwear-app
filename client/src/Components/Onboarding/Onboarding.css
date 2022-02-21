@@ -1,0 +1,46 @@
+.Onboarding{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+    color: rgba(0,0,0,1);
+}
+.Feature{
+    width: 60%;
+    min-width: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.FeatureColumn{
+    font-size: .5em;
+    height: 100vh;
+    width: 200px;
+    padding: 2em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: scroll;
+}
+.FeatureColumn .DesignThumbnail{
+    margin: 2em;
+}
+
+.disabledLink{
+    pointer-events: none;
+    cursor: none;
+    opacity: .3;
+}
+
+@media only screen and (max-width: 800px) {
+    .Feature{
+        display: none;
+    }
+  }
+@media only screen and (max-height: 600px){
+    .LoginForm{
+        font-size: .6em !important;
+    }
+}

@@ -1,0 +1,205 @@
+.designerRight * {
+  /*border: 1px solid red;*/
+}
+
+.designSettings {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  padding: 2vh;
+  width: 100%;
+  height: 100%;
+}
+
+.designSettings>* {
+  text-align: left;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.designSettings .top{
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+
+.designSettings>.middle {
+  flex-grow: 1;
+  padding-bottom: 4vh;
+  flex-flow: column nowrap;
+}
+
+.designSettings .top>* {
+  /*height: 100%;*/
+  padding-bottom: 4vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.designSettings .top .left {
+  padding-right: 4vh;
+  flex-grow: 2;
+}
+
+.designSettings .top .left .inputField {
+  width: 100%;
+}
+
+.designSettings .top .right {
+  /*max-width: 30%;*/
+}
+
+.designSettings .colorList {
+  flex-grow: 1;
+  padding-top: 1.2em;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.designSettings .colorList>li {
+  height: 2vh;
+  width: 2vh;
+  background-color: grey;
+  margin: 0.5vh 1vh 0.5vh 0;
+  border-radius: 50%;
+}
+
+.designSettings .inputField {
+  font-size: .5em;
+  width: unset;
+  height: unset;
+  padding: 1.5em;
+  margin: 1em;
+  margin-left: 0;
+  background-color: white;
+  filter: drop-shadow(.5em .5em 1em rgba(166, 171, 189, 1));
+  border: none;
+}
+
+.designSettings .middle>.card{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  opacity: 1;
+  background-color: white;
+  margin: 0;
+  padding: 2vh;
+}
+
+.designSettings .imageLayerStack{
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.imageLayerStack .card{
+  opacity: 1;
+  background-color: white;
+  padding: 1vh;
+}
+
+.designSettings .imageLayer{
+  flex-grow: 0;
+  width: 100%;
+  margin: 0 0 2vh 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgLayerDeets{
+  flex-grow: 1;
+  opacity: 1;
+  height: 4vh;
+  margin: 0;
+  background-color: white;
+  filter: drop-shadow(.5em .5em 1em rgba(166, 171, 189, 1));
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.layerMoveBtn{
+  flex-grow: 0;
+  height: unset;
+  width: 4vh;
+  margin: 0;
+  margin-left: 2vh;
+}
+.layerMoveBtn span{
+  transform: rotate(180deg);
+}
+
+.designSettings .imageLayer .imgVisibilityToggle{
+  background-color: black;
+  border-radius: 50%;
+  height: 2vh;
+  width: 2vh;
+}
+
+.designSettings .imageLayer .imgLayerName{
+  text-transform: none;
+  flex-grow: 1;
+  margin: 0;
+  margin-left: .5em;
+}
+
+.designSettings .imageLayer .imgTransformButtons{
+  height: 2vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.designSettings .imgTransformButtons li{
+  margin-left: .5em;
+}
+
+.designSettings .imageUpoadBtn{
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.designSettings button{
+  font-size: .8em;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  filter: drop-shadow(.5em .5em 1em rgba(166, 171, 189, 1));
+}
+
+.designSettings .discardDesignBtn{
+  background-color: lightslategray;
+  color: white;
+  margin-left: auto;
+}
+
+.designSettings .bottom{
+  position: relative;
+}
+
+.designerMessage{
+  position: absolute;
+  top: -3.5vh;
+  left: 0;
+}
+
+.designSettings .overwriteBtn,
+.designSettings .saveBtn{
+  margin-right: 1em;
+}
+

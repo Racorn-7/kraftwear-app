@@ -1,0 +1,133 @@
+.Settings{
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between !important;
+    align-items: flex-start;
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+}
+
+.Settings>*{
+    width: 20em;
+    min-width: 10em;
+    padding: 1em;
+}
+.Settings>*>*{
+    margin-bottom: 1em;
+}
+
+.Settings *{
+    text-transform: none;
+}
+.Settings h2, 
+.Settings h3, 
+.Settings h4 {
+    text-transform: uppercase;
+}
+
+.Settings .AddressBox,
+.Settings .AddressBoxInput,
+.Settings .PaymentBox{
+    color: #5E6579;
+    border-radius: 2em;
+    margin-bottom: 1em;
+    padding: 1em;
+    -webkit-box-shadow: 14px 10px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 10px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: 14px 10px 40px -12px rgba(0,0,0,0.75);
+}
+
+.Settings .AddressBox{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Settings .AddressBox div:first-of-type{
+    flex-grow: 1;
+    text-align: left;
+    padding: 0 1em;
+}
+
+.Settings .PaymentBox>div{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: flex-end;
+}
+.Settings .PaymentBox>div>div{
+    text-align: left;
+}
+.Settings .PaymentBox h3{
+    text-align: left;
+    padding: 0.5em 1em;
+}
+
+
+.AddressBoxInput{
+    /*height: 4em;*/
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.AddButton{
+    width: 100%;
+    height: 100%;
+    font-size: 8em;
+    color: #6E7587;
+}
+
+.AddressInfoContent{
+    width: 100%;
+}
+
+.ModalButtonsContainer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.AddButtonSettingsModal>*{
+    margin: 0.5em 0;
+}
+
+
+.ModalButtonsContainer >*{
+    flex-grow: 1;
+    min-width: 8em;
+    margin: 1em;
+    font-size: 1em;
+    text-align: center;
+}
+.ModalButtonsContainer .CancelBttn{
+    background-color: #5E6579;
+}
+
+.AddressToggle{
+    display: flex;
+    align-items: center;
+}
+.AddressToggle>*{
+    margin-right: 1em;
+}
+
+.AddressBoxButtons{
+
+}
+
+.AddressBoxButtons>*{
+    margin: .5em;
+}
+.AddressBoxButtons>*:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

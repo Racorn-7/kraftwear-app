@@ -1,0 +1,33 @@
+.Header{
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: left;
+  padding: 1em;
+}
+.Header h1{
+  padding-bottom: unset;
+}
+.Header h2{
+  font-size: 1em;
+  word-wrap: unset;
+}
+.HeaderRight{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.Logo, .CartIcon{
+  width: 2.5em;
+  height: 2.5em;
+  margin-top: .5em;
+  flex-grow: 0;
+}
+.CartIcon{
+  margin-right: 1em;
+  padding: .2em;
+}
+.HeaderTitles{
+  flex-grow: 1;
+  padding: 0 1em;
+ }

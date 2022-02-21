@@ -1,0 +1,56 @@
+.LoginForm{
+    color: black;
+    flex-grow: 2;
+    font-size: .8em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 4em;
+}
+.logo{
+    width: 20em;
+    height: 20em;
+    margin-bottom: -2.4em;
+}
+.LoginMessage{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 2em;
+}
+.LoginForm h2{
+    text-transform: none;
+}
+
+.LoginForm a,
+.LoginForm a:active,
+.LoginForm a:visited,
+.LoginForm a:focus{
+    color: black;
+}
+.LoginForm a:hover{
+    color: mediumseagreen;/* change color*/
+}
+.HaveNoAccount, .BackBtn, .ForgotPassword{
+    text-align: center;
+    padding: .5em;
+    color: black;
+}
+.ErrorMsg{
+    min-height: 2em;
+}
+.ErrorMsg mark{
+    color: white;
+    text-transform: none;
+    background-color: rgb(175, 12, 140);
+}
+.InputSection{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+

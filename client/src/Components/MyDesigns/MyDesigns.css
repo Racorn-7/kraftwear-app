@@ -1,0 +1,18 @@
+.MyDesigns {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DesignsContainer {
+  overflow: scroll !important;
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 20vh;
+  z-index: 9;
+}

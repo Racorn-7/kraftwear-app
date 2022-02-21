@@ -1,0 +1,53 @@
+    //C version
+    fetch('http://localhost:5000/upload', {
+      method: 'post',
+      headers: {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        test: "works"
+      })
+    }).then(res => res.json())
+      .then(res => {
+        //setIsLoading(false);
+        console.log(res);
+        
+        /*
+        if (!res.success)
+          //setErrorMsg(res.error);
+          console.log(res.error);
+        else
+          //setUser(res.success);
+          console.log(res.success);
+        */
+      })
+      .catch(err =>
+        console.log(err)
+      );
+
+
+
+
+
+    /*
+    //B version
+    axios({
+      url: "http://localhost:5000/upload",
+      method: 'POST',
+      data: formData,
+      headers: {
+      'Content-Type': "multipart/form-data"
+      }
+      }).then((response) => {
+        console.log(response.data);
+      }).catch((error) => {
+      //setResponse("error");
+        console.log("error");
+      
+      })
+    */
+
+
+
+    

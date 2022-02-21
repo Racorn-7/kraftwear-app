@@ -1,0 +1,17 @@
+.PsyButton{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13em;
+  height: 3.4em;
+  font-size: 1.2em;
+  background-color: black;
+  color: white;
+  text-transform: none;
+  border-radius: 2em;
+  overflow: hidden;
+}
+.PsyButton svg{
+  position: absolute;
+}

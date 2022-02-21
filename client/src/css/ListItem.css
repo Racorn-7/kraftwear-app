@@ -1,0 +1,110 @@
+.List {
+  width: 100%;
+  padding: 2em;
+  position: relative;
+  overflow: visible;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;  
+}
+
+.ListHeader {
+  width: 100%;
+  text-align: left;
+  padding-bottom: 1em;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+}
+
+.ListHeader h3 {
+  font-size: 1em;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.ListItem{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.ListItem *{
+  font-size: 1em;
+  text-transform: none;
+}
+.ListItem p{
+  padding: 1em;
+}
+
+/* LEFT */
+.ListItemLeft img{
+  background-color: rgba(224,224,224,1);
+  height: 2em;
+  width: 4em;
+}
+
+/* MID */
+.ListItemMid{
+  flex-grow: 2;
+  text-align: left;
+}
+
+/* RIGHT */
+.ListItemRight{
+  flex-grow: 2;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: .8em;
+}
+.ListItemRight>*{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ListItemRight p{
+  padding-left: 1.5em;
+  padding-right: .5em;
+}
+.ListItemRight svg{
+  height: 1.5em;
+}
+.ListItemRight button:hover svg{
+  fill: red;/*change*/
+}
+.ListItemRight button:hover{
+  color: red;/*change*/
+}
+.ListItemRight .confirmActionBtn,
+.ListItemRight .cancelActionBtn{
+  height: 100%;
+  padding: .5em 2em;
+  margin-left: 2em;
+  border-radius: 2em;
+  background-color: black;
+  color: white;
+}
+.ListItemRight .confirmActionBtn:hover{
+  background-color: red;
+  color: white;
+}
+.ListItemRight .cancelActionBtn:hover{
+  background-color: lightslategray;
+  color: black;
+}
+.ListItemRight .duplicateName{
+  flex-grow: 3;
+  border-bottom: 1px solid black;
+}
+.listItemMessage{
+  max-width: 18em;
+  padding: 0 !important;
+}
+

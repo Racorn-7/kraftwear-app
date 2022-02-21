@@ -1,0 +1,12 @@
+/** Main container **/
+.AppPages{
+  flex-grow: 2;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.Home, .MyOrders{
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

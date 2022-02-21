@@ -1,0 +1,15 @@
+.Artbrowser{
+  display: flex;
+  flex-flow: column;
+  justify-content: center !important;
+  align-items: center;
+}
+.Artbrowser>*{
+  margin: 1em;
+}
+.Artbrowser button{
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  padding: 1em 2em;
+}

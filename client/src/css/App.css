@@ -1,0 +1,54 @@
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap'); */
+.App{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden !important;
+}
+.AppContent{
+  font-size: 1em;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.AppPages{
+  overflow: hidden;/**/
+  flex-grow: 2;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.page{
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;/**/
+}
+.hangerFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20vh;
+  justify-self: flex-end;
+  background-image: url("../img/hangers.png");
+  background-position: top center;
+  background-size: cover;
+  z-index: 10;
+}
+.bottomFader{
+  background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 1));
+  height: 10vh;
+  width: 100%;
+  position: absolute;
+  bottom: 20vh;
+  left: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+div[role="presentation"] input{
+  text-transform: none !important;
+}

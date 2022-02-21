@@ -1,0 +1,123 @@
+/** MENU related component styling **/
+
+.Menu {
+  position: relative;
+  font-size: 1em;
+  background-color: rgba(34, 34, 34, 1);
+  color: white;
+  width: 20em;
+  min-width: 20em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0;
+  overflow: hidden;
+  z-index: 11;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.Menu * {
+  color: white;
+}
+
+.MenuCloseBtnIcon {
+  width: 1.5em;
+  margin: 1.5em;
+  font-size: 1em;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.MenuTop, .MenuItems, .MenuFooter {
+  width: 100%;
+}
+
+/******** MENU TOP ***************/
+
+.MenuTop {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: none !important;
+}
+
+.MenuTop * {
+  text-transform: none;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.MenuTop>* {
+  margin: .5em 0;
+}
+
+.AvatarImg {
+  width: 100%;
+  height: auto;
+}
+
+.Avatar {
+  width: 12em;
+  height: 12em;
+  border-radius: 50%;
+  background-color: darkslategray;
+}
+
+.Menu h2 {
+  font-size: 2.2em;
+}
+
+.Menu h3 {
+  font-size: 1em;
+  text-transform: none;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/******** MENU ITEMS ***************/
+
+.MenuItems {
+  flex-grow: 2;
+}
+
+.MenuItems li {
+  padding: .5em 1em;
+  font-size: 1.8em;
+  text-align: left;
+}
+
+.activeMenuItem {
+  background-color: rgba(213, 213, 213, 1);
+  color: rgba(34, 34, 34, 1) !important;
+}
+
+.activeMenuItem a {
+  color: unset;
+}
+
+/******** MENU FOOTER ***************/
+.MenuFooter {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+}
+
+.smallLogoIcon {
+  width: 2em;
+  height: 2em;
+}
+
+.LogOutBtn h3 {
+  font-size: 1.5em;
+  text-align: right;
+}

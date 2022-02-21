@@ -1,0 +1,49 @@
+.card{
+  border-radius: 2em;
+  filter: drop-shadow(.5em .5em 1em rgba(166, 171, 189, 1));
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  height: 100%;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.card a {
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-radius: inherit;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1em;
+}
+.card a>h2 {
+  background-color: rgba(0, 0, 0, .75);
+  font-size: 1em;
+  padding: 1em;
+  text-align: right;
+  border-radius: 2em;
+}
+.DesignThumbnail {
+  font-size: 1.4em;
+  width: 14em;
+  min-width: 14em;
+  height: 14em;
+  min-height: 14em;
+}
+/* ZOOM on hover */
+.card:hover, .card:focus {
+  transform: scale(1.01);
+}
+.card img{
+  display: none;
+}
